@@ -403,6 +403,8 @@ class NPT_OT_toggle_lock(bpy.types.Operator):
 
         if context.scene.npt_auto_sort:
             auto_sort_by_clicks(context.scene)
+            save_changes_to_py()
+            apply_saved_changes()
         return {'FINISHED'}
 
 
@@ -416,6 +418,7 @@ class NPT_OT_toggle_auto_sort(bpy.types.Operator):
         if context.scene.npt_auto_sort:
             auto_sort_by_clicks(context.scene)
             save_changes_to_py()
+            apply_saved_changes()
         return {'FINISHED'}
 
 
