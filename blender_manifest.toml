@@ -1,0 +1,30 @@
+schema_version = "1.0.0"
+
+id = "ai_n2name"
+version = "1.3.0"
+name = "ai-n2name"
+tagline = "N-panel tab manager: rename, reorder, lock, auto-sort by usage"
+maintainer = "youyooo"
+type = "add-on"
+
+website = "https://github.com/youyooo/ai-n2name"
+
+tags = [
+  "User Interface", "Pipeline"
+]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+copyright = [
+  "2025 666 (original)",
+  "2026 youyooo",
+]
+
+changelog = [
+  "v1.3.0: Added panel dwell-time tracking; auto-sort by stay duration; fixed active-tab detection",
+  "v1.2.0: System tab detection, lock feature, auto-sort by click frequency, fixed click detection",
+]
